@@ -1,0 +1,24 @@
+# Python virtual environment
+.venv/
+
+# Backup folders
+.git_backup/
+
+# Environment variables    
+.env
+.env.*
+
+# Python cache files       
+__pycache__/
+*.pyc
+
+# Database files
+*.db
+*.sqlite3
+
+# Node modules (for frontend)
+node_modules/
+
+# Logs and temp files      
+*.log
+tmp/
