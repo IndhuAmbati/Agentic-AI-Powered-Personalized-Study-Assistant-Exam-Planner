@@ -390,7 +390,7 @@ export default function Schedule() {
                         disabled={entryLoading[entry.id]}
                         onClick={() => handleSkip(entry)}
                       >
-                        Skip
+                        Reschedule
                       </button>
                       <button
                         className="btn btn-xs btn-primary"
