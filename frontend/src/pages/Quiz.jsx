@@ -18,7 +18,6 @@ export default function Quiz() {
   const [readyQueue, setReadyQueue] = useState(location.state?.readyQuizzes || []);
   const [progressSnapshot, setProgressSnapshot] = useState(null);
 
-  // Form
   const [topicId, setTopicId] = useState('');
   const [difficulty, setDifficulty] = useState('medium');
   const [numQ, setNumQ] = useState(5);
